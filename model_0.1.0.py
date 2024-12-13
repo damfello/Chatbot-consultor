@@ -135,7 +135,6 @@ def generate_answer(prompt):
 
 
 prompt = give_a_prompt_to_the_agent(query="How to develop a design validation for medical devices", context=context)
-
 print(prompt)
 
 answer = generate_answer(prompt)
